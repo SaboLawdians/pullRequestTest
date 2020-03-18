@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Blank Template",
+    "slug": "testBuild",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "releaseIos",
+      "publishBundlePath": "ios/blank-template/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/blank-template/Supporting/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.13.0-sdk35.0.0-a30ebc9b-3db4-42f4-b677-e468076baf18.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v119-sdk35.0.0-6758e9de-1e10-40f8-863d-ec8972895cf1.tar.gz"
+    },
+    "scheme": "exp28e2b9b61990451aa9b3a902c4477a46",
+    "android": {
+      "package": "com.lawdians.releaseAndroid",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
+  }
+}
